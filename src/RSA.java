@@ -113,6 +113,7 @@ public class RSA {
 		int e = getE(cardinalN);
 		int d = euclide(e, cardinalN);
 		
+		System.out.println("p = "+p+"\ng = "+q);
 		System.out.println("n = "+n+"\ncard(n) = "+cardinalN);
 		System.out.println("e = "+e);
 		System.out.println("d = "+d);
